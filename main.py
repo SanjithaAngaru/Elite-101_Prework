@@ -25,7 +25,7 @@ def option_three():
         option_three_input = input("Where did you order your food from? : ").title()
         if option_three_input not in list:
             print("Invalid option. We do not have connections to that food chain.")
-        elif option_three_input == 'Chickfila':
+        elif option_three_input == 'Chickfila' or 'Chick-fil-a':
             print("Processing...")
             print(f"Awesome {name}! Here is your driver and manager's information!")
             time.sleep(1)
